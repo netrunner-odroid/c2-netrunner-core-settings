@@ -1,5 +1,5 @@
 Source: c2-netrunner-core-settings
-Section: unknown
+Section: kde
 Priority: optional
 Maintainer: Rohan Garg <rohan@kde.org>
 Build-Depends: debhelper (>=9)
@@ -7,7 +7,7 @@ Standards-Version: 3.9.6
 Homepage: https://github.com/netrunner-odroid/c2-netrunner-core-settings
 
 Package: c2-netrunner-core-settings
-Architecture: armhf
+Architecture: arm64
 Depends: netrunner-default-settings, ${misc:Depends}
 Description: netrunner-core edition settings for ODROID-C1
  Netrunner Full specific settings for the ODROID-C1
